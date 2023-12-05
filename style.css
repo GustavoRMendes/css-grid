@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    padding: 10px;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30%;
+    grid-gap: 5%;
+}
+.box{
+    background-color: rgb(31, 31, 37);
+    border: 5px solid rgb(255, 238, 0);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
